@@ -5,9 +5,10 @@
 </head>
 <body>
   <h1>Tari si diviziunile lor</h1>
-  <form>
-    <h3>Statele Unite</h3>
-    <select>
+  <form> 
+    <fieldset >
+    <legend>Statele Unite</legend>
+    <select name="us">
       <option value="">--selecteaza--</option>
       <option value="alabama">Alabama</option>
       <option value="arkansas">Arkansas</option>
@@ -15,8 +16,32 @@
       <option value="newYork">New York</option>
       <option value="boston">Boston</option>
     </select>
-    <hr>
-    
+  </fieldset>
+   <fieldset>
+    <legend>Canada</legend>
+    <select name="ca">
+      <option value="">--selecteaza--</option>
+      <option value="Toronto">Toronto</option>
+      <option value="Montreal">Montreal</option>
+      <option value="Niagara Falls">Niagara Falls</option>
+      <option value="Victoria">Victoria</option>
+      <option value="Halifax">Halifax</option>
+    </select>
+  </fieldset>
+  <fieldset>  
+    <legend>Romania</legend>
+    <select name="ro">
+      <option value="">--selecteaza--</option>
+      <option value="Bucuresti">Bucuresti</option>
+      <option value="Cluj napoca">Cluj napoca </option>
+      <option value="Craiova">Craiova</option>
+      <option value="Iasi">Iasi</option>
+      <option value="Brasov">Brasov</option>
+    </select>
+  </fieldset>
+    <br> <br>
+    <button type="submit" >Go</button>
   </form>
+  
 </body>
 </html>
