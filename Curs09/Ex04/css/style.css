@@ -7,6 +7,10 @@
 .box-red {
   background-color: red;
   transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
 }
 
 .box-green {
@@ -22,7 +26,11 @@
 
 .box-brown {
   background-color: brown;
-  transform: skew(10deg,10deg) translate(-5px , 10px)
+  transform: skew(10deg,10deg) translate(-5px , -10px);
+  -webkit-transform: skew(10deg,10deg) translate(-5px , -10px);
+  -moz-transform: skew(10deg,10deg) translate(-5px , -10px);
+  -ms-transform: skew(10deg,10deg) translate(-5px , -10px);
+  -o-transform: skew(10deg,10deg) translate(-5px , -10px);
 }
 
 .box-yellow {

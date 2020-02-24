@@ -15,7 +15,11 @@
 
 .box-green {
   background-color: green;
-  transition: transform 0.8s linear;
+  transition: transform 5 linear;
+  -webkit-transition: transform 5 linear;
+  -moz-transition: transform 5 linear;
+  -ms-transition: transform 5 linear;
+  -o-transition: transform 5 linear;
 }
 .box-green:hover {
   transform: scale(2) rotate(360deg) ;

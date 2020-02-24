@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px
+		
+}
+.container {
+	margin: 0px;
+	padding: 0px;
+	 
+	width: 100%;
+	height: 800px;
+	background-image: url (  Mask Group 4.jpg ) ;
+	background-size: 100% ,600px;
+	text-align: center;
+}
+
+
+.header-top {
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	text-align: right; 
+	margin: 0px;
+	padding: 0px;
+		
+}
+
+
+.contact-info li {
+	color: white; display: inline-block; margin-right: 150px ;margin-top: 2px
+	 
+}
+
+.contact-info li  a {
+	text-decoration: none ;color: white;
+}
+/*/.header-top*/
+
+.header-buttom {
+	width: 100%;
+	height: 67px;
+	background-color: #E5E5E5;
+	margin: 0px;
+	padding: 0px;
+text-align: center;
+position: relative;
+}
+ 
+	
+		
+.header-buttom h1 {
+	text-align: left ; 
+	padding-left: 50px;
+	
+	
+	padding-top:  -20px;
+	 
+	position: relative;
+	margin-top: -10px
+	 
+}
+.header-buttom ul li {
+	font-size: 21px;   
+	display: inline-block ;   margin-left:   50px; padding-top: 10px  
+	
+}
+.header-buttom  li a {
+	text-decoration: none ; color: black 
+	
+}
+/*header-buttom*/
+.search-main {
+	background-color: black;
+	margin-top: 150px ;
+	margin-left: 210px;
+    width: 1088px;
+	height: 450px;
+	opacity: .8
+		
+}
+.search-main p {
+	opacity: 1;
+	color: white;
+	padding-top:  50px
+}
+
+
+	
+ 
+
+
+
+.search-man {
+	width: 800px;
+	height: 130px; padding-left: 150px
+}
+
+
+	
+
+.search-main li {
+	margin-top: 100px;
+	display: inline-block;
+	opacity: 1;
+	color: black;
+	font-size: 24px;
+	font-weight: normal;
+	padding-left: 20px;
+	 
+		
+		
+}
+.search-main #li-one {
+	background-color: white ; 
+}
+.search-man .rest-li {
+	background-color: gray ;}
+/*search-main*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
