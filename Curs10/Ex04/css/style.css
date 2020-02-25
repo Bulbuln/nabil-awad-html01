@@ -1,1 +1,18 @@
 
+p > b {
+    color: purple;
+}
+
+ ul  li >  i {
+    text-decoration: underline;
+     
+}
+h1 + h2 {
+    color: green;
+}
+h2 + h3 {
+    text-decoration: underline dotted red;
+    margin: 8px auto auto auto;
+}
+
+
