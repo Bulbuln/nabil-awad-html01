@@ -15,7 +15,7 @@
     top:8px;
     left: 3px;
 }
-.my-first-list a::after {
+.my-first-list a ::after {
     content:  "";
     display: block; 
     width: 5px;
@@ -23,10 +23,14 @@
     background-color: red;
     border-radius: 10px;
     transform: skew(0,15deg);
-    position: absolute;
+    position: relative;
     top: 7px;
     right: 3px;
 }
-.my-second-list  ::before {
+.my-second-list  a::before {
     content:"" ; 
+    
+    
 }
+    
+

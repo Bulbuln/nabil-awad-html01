@@ -4,3 +4,15 @@ input[type = "checkbox"]:checked + label {
 input[type = "radio"]:checked + label  {
     background-color: green;
 }
+
+select option:checked   {
+    font-weight: bold;
+    color: red;
+
+}
+input[type = "checkbox"] + label {
+    color: rgb(97, 97, 97);
+}
+input[type = "radio"] + label {
+    background-color: pink;
+}
